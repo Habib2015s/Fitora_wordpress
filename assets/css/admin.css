@@ -1,0 +1,46 @@
+.pmf-wrap .pmf-card-box{background:#fff;border:1px solid #dcdcde;border-radius:6px;padding:12px 20px 16px;margin:16px 0;max-width:1100px}
+.pmf-wrap .pmf-sample{background:#f6f7f7;padding:8px 12px;border-radius:4px;direction:rtl;display:inline-block}
+.pmf-wrap .pmf-steps li{margin-bottom:10px;line-height:1.9}
+.pmf-badge{display:inline-block;font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px}
+.pmf-b-verified{background:#dcfce7;color:#166534}.pmf-b-conditional{background:#fef3c7;color:#92400e}.pmf-b-alt{background:#dbeafe;color:#1e40af}
+
+/* تب محصول */
+#woocommerce-product-data ul.wc-tabs li.pmf_options a::before{content:"\f179";font-family:Dashicons}
+#pmf_product_data .pmf-levels{display:flex;flex-wrap:wrap;gap:6px;float:none;width:auto;margin:0 0 8px}
+#pmf_product_data .pmf-levels select{min-width:140px;float:none;margin:0}
+#pmf_product_data .pmf-list-wrap{padding:0 12px 12px}
+#pmf_product_data .pmf-list-wrap table td{vertical-align:middle}
+#pmf_product_data .pmf-list-wrap table select,#pmf_product_data .pmf-list-wrap table input{width:100%;float:none;margin:0}
+#pmf_product_data .pmf-empty-row{margin:8px 0 0;color:#646970}
+#pmf_product_data .pmf-rm{cursor:pointer;color:#b32d2e;font-size:18px;text-decoration:none}
+#pmf_product_data .pmf-p-note{padding:12px}
+
+/* ===== پنل مدیریت v1.1 ===== */
+.pmf-wrap{max-width:1100px}
+.pmf-hero{display:flex;justify-content:space-between;align-items:center;gap:20px;background:linear-gradient(135deg,#1d4ed8,#0f172a);color:#fff;border-radius:18px;padding:24px 28px;margin:16px 0}
+.pmf-hero h1{color:#fff;margin:0 0 6px}.pmf-hero p{margin:0;opacity:.9;max-width:640px;line-height:1.9}
+.pmf-hero-art{font-size:54px}
+.pmf-panel{background:#fff;border:1px solid #dcdcde;border-radius:14px;padding:16px 22px;margin:16px 0}
+.pmf-h2{font-size:1.15em;margin:6px 0 10px}.pmf-h2 small{font-weight:400;color:#6b7280;margin-right:8px}
+.pmf-lead{color:#4b5563}
+.pmf-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0}
+.pmf-stat{background:#fff;border:1px solid #dcdcde;border-radius:14px;padding:14px;text-align:center}
+.pmf-stat b{display:block;font-size:1.8em;color:#1d4ed8}.pmf-stat span{color:#6b7280}.pmf-stat.is-hot b{color:#dc2626}
+.pmf-bar{height:8px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-bottom:12px}.pmf-bar i{display:block;height:100%;background:#16a34a}
+.pmf-check{list-style:none;margin:0;padding:0}
+.pmf-check li{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f0f0f1}
+.pmf-tick{width:24px;height:24px;border-radius:50%;border:2px solid #cbd5e1;display:inline-flex;align-items:center;justify-content:center;font-size:13px;color:#fff}
+.is-done .pmf-tick{background:#16a34a;border-color:#16a34a}.is-done .pmf-lbl{color:#6b7280}.pmf-lbl{flex:1}
+.pmf-tpls{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin-top:12px}
+.pmf-tpl{display:flex;flex-direction:column;gap:6px;text-align:right;background:#f8fafc;border:2px solid #e5e7eb;border-radius:14px;padding:16px;cursor:pointer;font:inherit;transition:.15s}
+.pmf-tpl:hover{border-color:#1d4ed8;background:#eff6ff;transform:translateY(-2px)}
+.pmf-tpl-i{font-size:30px}.pmf-tpl em{font-style:normal;color:#6b7280;font-size:.9em}
+.pmf-tpl-opts{display:flex;flex-wrap:wrap;gap:18px;margin:8px 0}
+.pmf-forms{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+.pmf-form-card{background:#fff;border:1px solid #dcdcde;border-radius:14px;padding:16px}
+.pmf-form-card h3{margin:0 0 6px}.pmf-chain,.pmf-mini{color:#6b7280;margin:4px 0}
+.pmf-code-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}
+.pmf-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.pmf-swatch{width:26px;height:26px;border-radius:50%;border:2px solid #fff;box-shadow:0 0 0 1px #cbd5e1;cursor:pointer;vertical-align:middle;margin:0 3px}
+.pmf-inline{display:flex;gap:8px;flex-wrap:wrap}
+.pmf-cat{border-color:#bfdbfe;background:linear-gradient(180deg,#eff6ff,#fff)}
